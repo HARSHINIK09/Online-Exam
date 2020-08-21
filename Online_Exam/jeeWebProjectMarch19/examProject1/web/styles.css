@@ -1,0 +1,32 @@
+body
+{
+   margin:0px;
+   font:12pt verdana;
+   background-color:silver;
+}
+
+h1
+{
+   margin:0px;
+   font: 700 30pt arial;
+   background-color: navy;
+   color:white;
+}
+
+h2
+{
+   margin:0px;
+   font:700 24pt arial;
+   color:blue;
+}
+
+h4
+{
+  font:700 14pt arial;color:red;
+}
+
+th
+{
+      font:700 12pt verdana;
+      color:white;background-color:navy
+}

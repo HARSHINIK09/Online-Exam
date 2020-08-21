@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>New Student Registration</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="newjavascript.js">
+        
+    </script>
+  </head>
+  <body>
+      <h2>New Student Registration</h2>
+      <form action="register.jsp" onsubmit="return validateForm(username, sname, email, pwd, pwd2, hintq, hinta)">
+
+          <table border="0">
+                  <tr>
+                      <td>Student User name:</td>
+                      <td style="color: lightgray">(for login purpose)</td>
+                      <td><input type="text" name="username"></td>
+                  </tr>
+                  <tr>
+                      <td>Student Name:</td>
+                      <td style="color: lightgray">(To wish after login)</td>
+                      <td><input type="text" name="sname" size="50"></td>
+                  </tr>
+                  <tr>
+                      <td>Email address:</td>
+                      <td style="color: lightgray">(useful if forgot password)</td>
+                      <td><input type="text" name="email" size="30"></td>
+                  </tr>
+                  <tr>
+                      <td>Password: (Min: 6 chars)</td>
+                      <td style="color: lightgray">(for login purpose)</td>
+                      <td><input type="password" name="pwd" maxlength="10"></td>
+                  </tr>
+                  <tr>
+                      <td>Confirm Password:</td>
+                      <td style="color: lightgray">(for surety)</td>
+                      <td><input type="password" name="pwd2" maxlength="10"></td>
+                  </tr>
+                  <tr>
+                      <td>Hint Question:</td>
+                      <td style="color: lightgray">(useful if forgot password)</td>
+                      <td><input type="text" name="hintq" value="" size="60"></td>
+                  </tr>
+                  <tr>
+                      <td>Hint Answer:</td>
+                      <td style="color: lightgray">(useful if forgot password)</td>
+                      <td><input type="text" name="hinta" value="" size="30"></td>
+                  </tr>
+            </table>
+          
+          <p/>
+          
+          <input type="submit" value="Register me"> &nbsp;
+          <input type="reset" value="Reset">
+          
+          <p/>
+          
+          <a href="index.jsp">Go Back</a>
+          
+          </form>
+    </body>
+</html>
