@@ -9,9 +9,9 @@ Admins of the website can do the following operations in the website
 2) Create test
 3) Edit question
 4) Set correct option and marks
-5)View the list of students in increasing or decreasing order  of marks and evaluate  performance
-6)Admin can delete a registered user
-7)Can re-conduct exam for group of users
+5) View the list of students in increasing or decreasing order  of marks and evaluate  performance
+6) Admin can delete a registered user
+7) Can re-conduct exam for group of users
 
 
 
